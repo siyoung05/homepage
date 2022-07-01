@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+#login {
+    padding: 5px;
+    float: right;
+}
+
+#kategorie {
+    width: 100px;
+    height: 50px;
+    border: solid 1px blue;
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.sub li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#kategorie:hover .sub {
+    display: block;
+}
+
+.sub a:hover {
+    background-color: #ddd;
+}
+
+#kategorie:hover .dropbtn {
+    background-color: blue;
+}
+
+#rigthMenu {
+    height: 40px;
+    width: 400px;
+    border: 2px solid blue;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: 270px;
+    margin-top: 30px;
+}
+
+#serch {
+    font-size: 16px;
+    width: 325px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+
+button {
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background-color: blue;
+    outline: none;
+    float: right;
+    color: #ffffff;
+}
+
+#title {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.imgs {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    background-color: #000;
+}
+
+.imgs>img {
+    width: 100%;
+    position: absolute;
+    transition: all 1s;
+}
+
+h3 {
+    margin-top: 30px;
+    float: left;
+}
+
+
+p {
+    margin-top: 30px;
+    float: left;
+}
+
+h5 {
+    margin: 35px 0 35px 25px;
+}
+
+#today {
+    width: 1000px;
+    height: 70%;
+    margin-left: 5px;
+    float: left;
+    border: 1px solid black;
+}
+
+#TIOall {
+    width: 43%;
+    height: 305px;
+    margin: 10px 0 5px 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+#TIO img {
+    margin-left: 15px;
+}
+
+#TIO h4 {
+    margin-left: 10px;
+    margin-top: 30px;
+    float: left;
+}
+
+#TIOall:hover {
+    border: 3px solid skyblue;
+}
+
+.buy {
+    width: 200px;
+    height: 40px;
+}
+
+.buy:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+#maskall {
+    float: right;
+    width: 43%;
+    height: 305px;
+    margin: 10px 10px 5px 0;
+    border: 1px solid black;
+}
+
+#mask img {
+    margin-left: 15px;
+}
+
+#mask h4 {
+    margin-left: 10px;
+    margin-top: 30px;
+    float: left;
+}
+
+#maskall:hover {
+    border: 3px solid skyblue;
+}
